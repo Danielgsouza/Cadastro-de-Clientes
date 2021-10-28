@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,200;1,800&display=swap">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/button.css">
+    <link rel="stylesheet" href="style/records.css">
+    <link rel="stylesheet" href="style/modal.css">
+    <title>Cadastro de Clientes</title>
+    <script src="src/index.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1 class="header-title">Cadastro de Clientes</h1>
+    </header>
+    <main>
+        <button type="button" class="button dark mobile" id="btnOpenModal">Cadastrar Cliente</button>
+        <table class="records" id="myTable">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Sobrenome</th>
+                    <th>Email</th>
+                    <th>Celular</th>
+                    <th style="width: 50px;height: 50px; padding: 0 30px;">Editar</th>
+                    <th style="width: 50px;height: 50px;">Excluir</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    
+        <div class="modal" id="modal">
+            <div class="modal-content">
+                <header class="modal-header">
+                    <h2>Cadastrar Cliente</h2>
+                    <span class="modal-close" id="modalClose">&#10006;</span>
+                </header>
+                <form id="form" class="modal-form">
+                
+                    <input type="text" name="" id="nome" class="modal-field" placeholder="Digite o nome do cliente..." data-index="new" required>
+                
+                    <input type="text" name="" id="sobrenome" class="modal-field" placeholder="Digite o sobrenome do cliente..." required>
+                    
+                    <input type="email" name="" id="email" class="modal-field" placeholder="Digite o email do cliente..." required>
+                    
+                    <input type="tel" name="" id="celular" class="modal-field" placeholder="Digite o celular do cliente..." required>
+                </form>
+                <footer class="modal-footer">
+                    <button class="button red" id="cancel">Cancelar</button>
+                    <button class="button blue" id="btnSave">Salvar</button>
+                </footer>
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>
