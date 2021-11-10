@@ -28,7 +28,7 @@ button.green{
     box-shadow: inset 200px 0 0 #ffffff55;
 }
 
-@media (max-width:480px){
+@media (max-width:500px){
     .button.mobile{
         color: transparent;
         font-size: 0;
@@ -36,7 +36,7 @@ button.green{
         height: 50px;
         border-radius: 50%;
         position: fixed;
-        top: 80vh;
+        top: 70vh;
         left: 80vw;
     }
     .button.mobile::before{
