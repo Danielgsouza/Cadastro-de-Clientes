@@ -1,2 +1,2 @@
 # Cadastro-de-Clientes
- CRUD simples desenvolvido com HTML, CSS e Javascriot
+ CRUD simples desenvolvido com HTML, CSS e Javascript.
