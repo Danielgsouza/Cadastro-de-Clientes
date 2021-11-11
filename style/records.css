@@ -32,8 +32,10 @@
     h1 {
         width: 100vw;
     }
+    thead{
+        background-color: var(--primary-color);
+    }
     .records{
-        border-spacing: 5px;
         display: inline-block;
         width: 100vw;
         overflow: scroll;
@@ -50,12 +52,10 @@
     
     .records td:not(:first-child){  
         padding: 0 20px;
-        border: solid;
     }
     .records th, td{
         margin: 10px 0;
         padding: 0 10px;
-        border: solid;
     }
  
 }
