@@ -36,7 +36,7 @@ button.green{
         height: 50px;
         border-radius: 50%;
         position: fixed;
-        top: 70vh;
+        top: 80vh;
         left: 80vw;
     }
     .button.mobile::before{
